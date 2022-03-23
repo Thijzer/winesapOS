@@ -77,6 +77,7 @@ These are reasons why macOS is inferior compared to Linux when it comes to gamin
         - [ClamAV](https://www.clamav.net/), and the GUI front-end [Clamtk](https://github.com/dave-theunsub/clamtk), is an open source anti-virus scanner.
         - [QDirStat](https://github.com/shundhammer/qdirstat) provides a graphical user interface to view storage space usage.
 - **Usability.** Software for typical day-to-day use is provided.
+    - [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) for managing AppImage packages.
     - [BalenaEtcher](https://www.balena.io/etcher/) for an image flashing utility.
     - [Blueman](https://github.com/blueman-project/blueman) for a Bluetooth pairing client.
     - [Bottles](https://usebottles.com/) for installing any Windows program.
@@ -90,6 +91,7 @@ These are reasons why macOS is inferior compared to Linux when it comes to gamin
     - [KeePassXC](https://keepassxc.org/) for a cross-platform password manager.
     - [LibreOffice](https://www.libreoffice.org/) provides an office suite.
     - [Open Broadcaster Software (OBS) Studio](https://obsproject.com/) for a recording and streaming utility.
+    - [Pamac](https://wiki.manjaro.org/index.php/Pamac) for managing Pacman, AUR, Flatpak, and Snap packages.
     - [PeaZip](https://peazip.github.io/) for an archive/compression utility.
     - [Shutter](https://shutter-project.org/) for a screenshot utility.
     - [Terminator](https://terminator-gtk3.readthedocs.io/en/latest/) for a terminal emulator.
@@ -171,8 +173,8 @@ For more information about Linux support on Macs, refer to the [Linux on MacBook
 | Read-only file system | Yes | No |
 | File system backup type | A/B partitions | Btrfs snapshots |
 | Number of possible file system backups | 1 | Unlimited |
-| Package managers (CLI) | pacman, yay, flatpak | pacman, yay, flatpak, snap |
-| Package manager (GUI) | Discover | Pamac |
+| Package managers (CLI) | pacman, yay, flatpak | pacman, yay, flatpak, snap, and ail-cli |
+| Package manager (GUI) | Discover | Pamac and AppImageLauncher |
 | Update type | Image-based | Package manager |
 | Number of installed packages | Small | Large |
 | Game launchers | Steam | Steam, Heroic Games Launcher, MultiMC, and Lutris |

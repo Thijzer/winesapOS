@@ -63,6 +63,7 @@
 - Add an upgrade script to the desktop.
 - Change Pamac plugins for AUR, Flatpak, and Snap to be enabled by default.
 - Add winesapOS icon for winesapOS specific desktop shortcuts.
+- Add AppImageLauncher for managing AppImage packages.
 
 ## 2.2.0
 
